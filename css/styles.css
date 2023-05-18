@@ -1,0 +1,26 @@
+body{
+    background-color:white;
+    font-family: 'Fira Mono', monospace;
+}
+
+.inner-container {
+    padding: 2.5% 5%;
+    position: relative;
+    z-index:2;
+}
+
+h1{
+    font-size: 350%;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.small-image {
+    max-width: 40%; /* Adjust the maximum width as desired */
+    max-height: auto; /* Automatically adjusts the height while maintaining aspect ratio */
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
